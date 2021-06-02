@@ -1,0 +1,159 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+header
+    background: url("./images/bg2.jpg")
+    background-repeat: no-repeat
+    height: 40vh
+    background-size: cover
+    background-position: center
+
+header:before
+    content: ""
+    width: 100%
+    height: 40vh
+    position: absolute
+    top: 0
+    left: 0
+
+    background-image: linear-gradient(90deg,#1f2937,#111927)
+    opacity: 0.8
+
+.container
+    width: 80%
+    height: 100%
+    margin: auto
+
+.content
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    position: relative
+
+.title
+    text-align: center
+    padding: 10px
+    color: #82bf45
+    font-size: 5rem
+    font-family: shlop
+
+.text
+    color: #17a3ac
+    font-size: 17px
+
+.characters
+    margin-top: 20px
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+.box
+    width: 30%
+    background-color: #1f2937
+    margin: 10px
+    border-radius: 4px
+    box-shadow: 4px 5px #d9e5e6
+    display: flex
+    img
+        width: 50%
+
+    .character
+        width: 100%
+        margin: 10px
+        flex-direction: column
+        justify-content: center
+
+    .name
+        font-family: shlop
+        color: #82bf45
+        font-size: 40px
+
+    .especie
+        text-align: center
+        padding: 5px
+        background-color: #364150
+        color: white
+        border-radius: 4px
+        text-transform: uppercase
+        font-size: 19px
+        margin: 3px 0px
+        font-family: shlop
+
+    .status
+        text-align: center
+        color: white
+        padding: 4px
+        background-color: #364150
+        border-radius: 4px
+        text-transform: uppercase
+        font-size: 9px
+        margin: 3px 0px
+
+@media screen and ( max-width: 1588px )
+    .container
+        width: 85%
+    .box
+        .character
+            .name
+                font-size: 35px
+
+@media screen and ( max-width: 1450px )
+    .container
+        width: 90%
+
+@media screen and ( max-width: 1300px )
+    .container
+        width: 95%
+
+@media screen and ( max-width: 1230px )
+    .box
+        width: 35%
+    .container
+        width: 100%
+
+@media screen and ( max-width: 1080px )
+    .box
+        width: 45%
+
+@media screen and ( max-width: 860px )
+    .container
+        width: 80%
+    .box
+        width: 100%
+
+@media screen and ( max-width: 636px )
+    .title
+        font-size: 4rem
+        padding: 5px
+
+@media screen and ( max-width: 534px )
+    .title
+        font-size: 15px
+    .container
+        width: 90%
+
+@media screen and ( max-width: 444px )
+    .container
+        width: 95%
+    .title
+        padding: 4px
+
+@media screen and ( max-width: 416px )
+    .container
+        width: 100%
+    .title
+        padding: 3px
+
+@media screen and ( max-width: 396px )
+    .title
+        font-size: 3rem
+
+@media screen and ( max-width: 378px )
+    .text
+        font-size: 13px

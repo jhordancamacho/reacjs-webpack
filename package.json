@@ -1,0 +1,38 @@
+{
+  "name": "reactjs-webpack",
+  "version": "1.0.0",
+  "description": "react + webpack + sass + api rick and morty",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack"
+  },
+  "author": "jhordan camilo camacho",
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "^3.11.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "*",
+    "css-loader": "^5.2.4",
+    "csv-loader": "^3.0.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "json5": "^2.2.0",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "toml": "^3.0.0",
+    "webpack": "^5.36.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2",
+    "xml-loader": "^1.2.1",
+    "yamljs": "^0.3.0"
+  }
+}
